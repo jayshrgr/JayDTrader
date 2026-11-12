@@ -1,15 +1,4 @@
 {
-  "extraKnownMarketplaces": {
-    "day-trader-skill": {
-      "source": {
-        "source": "github",
-        "repo": "Jakeschincariol/day-trader-skill"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "day-trader-skill@day-trader-skill": true
-  },
   "permissions": {
     "ask": [
       "mcp__alpaca__place_stock_order",
