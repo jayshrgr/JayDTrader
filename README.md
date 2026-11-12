@@ -12,6 +12,16 @@ news / analyst / pelosi                                                        (
 
 Each skill writes its output to a `trader/` folder that the next one reads.
 
+## Two copies: yours and Jake's
+
+- `/trader-scanner` and the other plain names run **this repo's copy** in
+  `.claude/skills/`. Change these freely; they are your base.
+- `/day-trader-skill:trader-scanner` and so on run **Jake's plugin**, installed
+  from his marketplace through `.claude/settings.json`, which gets his updates.
+- To pull his updates: `/plugin marketplace update day-trader-skill`, then
+  restart Claude Code. To compare his new version with yours, diff his repo
+  against `.claude/skills/`.
+
 ## Safety
 
 - Only `trader-broker` can lead to an order, through a broker connection you
